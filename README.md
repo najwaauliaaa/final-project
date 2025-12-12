@@ -8,3 +8,20 @@
 > 5052241032 Aqila Ikhza Kusumawardani
 > 
 > 5052241035 Najwa Aulia
+
+# 🏨 Final Project: Data Wrangling dan Analisis Permintaan Pemesanan Hotel
+
+Proyek ini bertujuan untuk mendemonstrasikan proses Data Wrangling (pembersihan, transformasi, dan rekayasa fitur) pada dataset permintaan pemesanan hotel, yang kemudian dilanjutkan dengan analisis eksploratif (EDA) untuk mendapatkan *insight* mengenai tingkat pembatalan dan perbedaan profil pemesanan antara berbagai tipe hotel.
+
+**Dataset:** Hotel Booking Demand Dataset (hotels.csv)
+
+## 📌 Tujuan Utama Analisis
+
+1.  **Mengatasi Kualitas Data:** Mengidentifikasi dan menangani *missing values* (terutama pada kolom `company` dan `agent`), nilai duplikat, serta inkonsistensi data kategorikal.
+2.  **Feature Engineering:** Menggabungkan kolom tanggal untuk analisis musiman dan membuat fitur total lama menginap.
+3.  **Analisis Pembatalan:** Menganalisis faktor-faktor (misalnya, `lead_time`, `deposit_type`, `adr`) yang paling memengaruhi tingkat pembatalan (`is_canceled`).
+4.  **Perbandingan Hotel:** Membandingkan rata-rata harga harian (`adr`) dan profil pemesanan antara **City Hotel** dan **Resort Hotel**.
+
+## 📁 Struktur Repositori
+
+Repositori ini mengikuti struktur standar proyek Data Science memastikan pemisahan data mentah, data bersih, dan *notebook* analisis.
