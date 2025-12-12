@@ -24,7 +24,6 @@ Proyek ini bertujuan untuk mendemonstrasikan proses **Data Wrangling** (pembersi
 
 ### Tujuan Exploratory Data Analysis (EDA)
 
-Tujuan utama dari fase EDA adalah memvisualisasikan data yang sudah bersih untuk mendapatkan *insight* cepat (seperti yang sudah dilakukan di *notebook* Anda):
 * **Mengukur Proporsi Pembatalan:** Melihat distribusi status pemesanan (`is_canceled`).
 * **Menganalisis Tren Musiman:** Memvisualisasikan total pemesanan berdasarkan bulan kedatangan (`arrival_date_month`).
 * **Membandingkan Harga:** Melihat distribusi harga harian rata-rata (`adr`) antara City Hotel dan Resort Hotel.
@@ -50,6 +49,7 @@ Repositori ini mengikuti struktur standar proyek Data Science, memastikan pemisa
 
 3.  **Jalankan Notebook:**
     Buka `notebooks/final_project.ipynb` di Google Colab atau Jupyter Notebook dan eksekusi setiap *cell* secara berurutan.
+
 
 
 
