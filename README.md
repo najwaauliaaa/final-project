@@ -22,6 +22,14 @@ Proyek ini bertujuan untuk mendemonstrasikan proses **Data Wrangling** (pembersi
 3.  **Membandingkan Hotel:** Bagaimana rata-rata Harga Harian (`adr`) bervariasi antara City Hotel dan Resort Hotel berdasarkan musim kedatangan?
 4.  **Menangani Missing Values:** Bagaimana *missing values* di kolom `company` dan `agent` dapat diolah sedemikian rupa sehingga tetap memberikan *insight* dalam analisis akhir?
 
+### Tujuan Exploratory Data Analysis (EDA)
+
+Tujuan utama dari fase EDA adalah memvisualisasikan data yang sudah bersih untuk mendapatkan *insight* cepat (seperti yang sudah dilakukan di *notebook* Anda):
+* **Mengukur Proporsi Pembatalan:** Melihat distribusi status pemesanan (`is_canceled`).
+* **Menganalisis Tren Musiman:** Memvisualisasikan total pemesanan berdasarkan bulan kedatangan (`arrival_date_month`).
+* **Membandingkan Harga:** Melihat distribusi harga harian rata-rata (`adr`) antara City Hotel dan Resort Hotel.
+* **Korelasi Lead Time:** Membandingkan durasi waktu tunggu (`lead_time`) antara pemesanan yang dibatalkan dan yang tidak dibatalkan.
+
 ## 📁 Struktur Repositori
 
 Repositori ini mengikuti struktur standar proyek Data Science, memastikan pemisahan data mentah, data bersih, dan *notebook* analisis:
@@ -42,5 +50,6 @@ Repositori ini mengikuti struktur standar proyek Data Science, memastikan pemisa
 
 3.  **Jalankan Notebook:**
     Buka `notebooks/final_project.ipynb` di Google Colab atau Jupyter Notebook dan eksekusi setiap *cell* secara berurutan.
+
 
 
