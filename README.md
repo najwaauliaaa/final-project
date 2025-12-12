@@ -47,7 +47,7 @@ Repositori ini mengikuti struktur standar proyek Data Science, memastikan pemisa
 | stays_in_weekend_nights      | int64                  | Malam akhir pekan                       |
 | stays_in_week_nights         | int64                  | Malam hari biasa                        |
 | adults                       | int64                  | Jumlah dewasa                           |
-| children                     | int64                  | Jumlah anak (setelah imputasi)          |
+| children                     | int32                  | Jumlah anak (setelah imputasi)          |
 | babies                       | int64                  | Jumlah bayi                             |
 | meal                         | object                 | Tipe makan (BB, HB, FB, SC, dll)        |
 | country                      | object                 | Kode negara (imputasi Unknown)          |
@@ -60,11 +60,11 @@ Repositori ini mengikuti struktur standar proyek Data Science, memastikan pemisa
 | assigned_room_type           | object                 | Tipe kamar yang diberikan               |
 | booking_changes              | int64                  | Jumlah perubahan booking                |
 | deposit_type                 | object                 | Tipe deposit                            |
-| agent                        | float64                  | Kode agen (0 = tidak pakai agen)        |
-| company                      | float64                  | Kode company                            |
+| agent                        | int32                  | Kode agen (0 = tidak pakai agen)        |
+| company                      | int32                  | Kode company                            |
 | days_in_waiting_list         | int64                  | Hari menunggu                           |
 | customer_type                | object                 | Tipe pelanggan                          |
-| adr                          | float64                | Average Daily Rate (setelah cleaning)   |
+| adr                          | float64                | Average Daily Rate   |
 | required_car_parking_spaces  | int64                  | Tempat parkir dibutuhkan                |
 | total_of_special_requests    | int64                  | Permintaan khusus                       |
 | reservation_status           | object                 | Status reservasi                        |
@@ -88,6 +88,7 @@ Repositori ini mengikuti struktur standar proyek Data Science, memastikan pemisa
 
 3.  **Jalankan Notebook:**
     Buka `notebooks/final_project.ipynb` di Google Colab atau Jupyter Notebook dan eksekusi setiap *cell* secara berurutan.
+
 
 
 
